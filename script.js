@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Soundgasm Link Extractor
+// @name         Soundgasm Link Exporter
 // @version      0.1
 // @include      https://soundgasm.net/*
 // @grant        none
