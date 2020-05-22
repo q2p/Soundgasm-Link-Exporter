@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Soundgasm.net Downloader
-// @description  This is a simple script that shows you direct a link to audio file that you want to download.
+// @description  This is a simple script that shows you a direct link to audio file that you want to download.
 // @author       q2p
 // @namespace    q2p
-// @version      0.3
+// @version      0.4
 // @include      http://soundgasm.net/u/*/*
 // @include      https://soundgasm.net/u/*/*
 // @grant        none
