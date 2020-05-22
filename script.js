@@ -1,27 +1,27 @@
 // ==UserScript==
-// @name         Soundgasm Link Exporter
-// @version      0.1
-// @include      https://soundgasm.net/*
-// @grant        none
+// @name    Soundgasm Link Exporter
+// @version 0.1
+// @include https://soundgasm.net/*
+// @grant   none
 // ==/UserScript==
 
 (function() {
-    'use strict';
+	'use strict';
 
-    function gn() {
-        let el = document.getElementById("jp_audio_0");
-        if (el != undefined && el != null) {
-            let src = el.src;
-            if (src != undefined && src != null && src.length > 4) {
-                var anc = document.createElement("a");
-                anc.href = src;
-                anc.innerText = src;
-                document.body.append(anc);
-                return;
-            }
-        }
-        setTimeout(gn, 500);
-    };
+	function gn() {
+		const el = document.getElementById("jp_audio_0");
+		if (el) {
+			const src = el.src;
+			if (src && src.length > 4) {
+				const anc = document.createElement("a");
+				anc.href = src;
+				anc.textContent = src;
+				document.body.appendChild(anc);
+				return;
+			}
+		}
+		setTimeout(gn, 200);
+	};
 
-    gn();
+	gn();
 })();
