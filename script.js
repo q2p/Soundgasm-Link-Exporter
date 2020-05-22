@@ -4,7 +4,8 @@
 // @author       q2p
 // @namespace    q2p
 // @version      0.3
-// @include      https://soundgasm.net/*
+// @include      http://soundgasm.net/u/*/*
+// @include      https://soundgasm.net/u/*/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
