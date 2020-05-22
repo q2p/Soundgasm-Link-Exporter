@@ -1,8 +1,11 @@
 // ==UserScript==
-// @name    Soundgasm Link Exporter
-// @version 0.1
-// @include https://soundgasm.net/*
-// @grant   none
+// @name         Soundgasm.net Link Exporter
+// @description  This is a simple script that shows you direct a link to audio file that you want to download.
+// @author       q2p
+// @namespace    q2p
+// @version      0.1
+// @include      https://soundgasm.net/*
+// @grant        none
 // ==/UserScript==
 
 (function() {
@@ -21,7 +24,7 @@
 			}
 		}
 		setTimeout(gn, 200);
-	};
+	}
 
 	gn();
 })();
